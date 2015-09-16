@@ -17,7 +17,7 @@ public class Door
      */
     public Door(String name,String State)
     {
-        this.name=name; 
+        this.name=name ; 
         this.state=state;
         
     }
