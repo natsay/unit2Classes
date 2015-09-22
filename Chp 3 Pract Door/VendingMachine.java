@@ -16,7 +16,7 @@ public class VendingMachine
     /**
      * Default constructor for objects of class VendingMachine
      */
-    public VendingMachine(int cans, int tokens )
+    public VendingMachine(int cans) 
     {
         this.cans=10;
         this.tokens=0; 
@@ -35,9 +35,10 @@ public class VendingMachine
      */
     public void fillUp(int newCans)
     {
-       cans+=newCans 
+       cans+=newCans ;
     }
-    
+    
+
     /**
      * An example of a method - replace this comment with your own
      *  that describes the operation of the method
@@ -51,10 +52,13 @@ public class VendingMachine
      */
     public void insertToken(int newTokens) 
     {
-        tokens+=newTokens 
+        tokens+=newTokens;
+        cans-=newTokens; 
+        
         
     }
-    
+    
+
     /**
      * An example of a method - replace this comment with your own
      *  that describes the operation of the method
@@ -68,9 +72,10 @@ public class VendingMachine
      */
     public int getTokens() 
     {
-        return tokens  
+        return tokens;  
     }
-    
+    
+
     /**
      * An example of a method - replace this comment with your own
      *  that describes the operation of the method
@@ -84,7 +89,7 @@ public class VendingMachine
      */
     public int getCans() 
     {
-        return cans 
+        return cans; 
     }
 
 }
