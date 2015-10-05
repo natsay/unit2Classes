@@ -9,7 +9,7 @@ import javax.swing.JComponent;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class RectangleComponent extends JComponent
+public class Rectangle
 {
     public void paintComponet(Graphics g) 
     {

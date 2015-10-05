@@ -29,9 +29,9 @@ public class CityscapeComponent extends JComponent
     {
         Graphics2D g2 = (Graphics2D) g;
         
+        Rectangle rectangle= new
         
-        
-        
+        g2.draw(box);
     }
     
     /**
