@@ -19,23 +19,24 @@ public class CityscapeViewer
      */
     public static void main(String[] args) throws InterruptedException
     {
-        // create and configure the frame (window) for the program
+        
         JFrame frame = new JFrame();
         
-        frame.setSize(800 /* x */, 600 /* y */);
+
+        frame.setSize(2000, 600);
+
+        frame.setSize(2000,600);
        
         
-        
+
         frame.setTitle("Cityscape");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        CityscapeComponent component = new CityscapeComponent(  );
+        frame.add(component); 
+
         
         
-        
-       
-        CityscapeComponent component = new CityscapeComponent();
-        frame.add(component);
-        
-        
+
         frame.setVisible(true);
 
         

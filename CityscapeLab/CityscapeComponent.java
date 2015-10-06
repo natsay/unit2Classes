@@ -11,13 +11,6 @@ import javax.swing.JComponent;
  */
 public class CityscapeComponent extends JComponent
 {
-    // define the objects in your Cityscape as instance variables
-    // ...
-    
-    
-    
-    // define the CityscapeComponent contructor and intiailize all instance variables
-    // ...
     
     
     /**
@@ -29,9 +22,39 @@ public class CityscapeComponent extends JComponent
     {
         Graphics2D g2 = (Graphics2D) g;
         
-        Rectangle rectangle= new
+
+        SunsetGradient sunset= new SunsetGradient();
+        sunset.paint(g2);
         
-        g2.draw(box);
+        Moon moon= new Moon(0,0); 
+        moon.draw(g2);
+        
+        Buildings build1= new Buildings(0,0);
+        build1.draw(g2);
+        
+        Buildings build2= new Buildings(0,0);
+        build2.draw(g2);
+        
+        Buildings build3= new Buildings(0,0);
+        build3.draw(g2);
+        
+        Buildings build4= new Buildings(0,0);
+        build4.draw(g2);
+        
+        Buildings build5= new Buildings(0,0);
+        build5.draw(g2);
+        
+        Windows wind1= new Windows(0,0); 
+        wind1.draw(g2); 
+        
+        
+        
+        
+        
+        
+
+        
+        
     }
     
     /**
