@@ -47,6 +47,12 @@ public class CityscapeComponent extends JComponent
         Windows wind1= new Windows(0,0); 
         wind1.draw(g2); 
         
+        Windows wind2= new Windows(0,0); 
+        wind1.draw(g2); 
+        
+        Windows wind3= new Windows(0,0); 
+        wind1.draw(g2); 
+        
         
         
         

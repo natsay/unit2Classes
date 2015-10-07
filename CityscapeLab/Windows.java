@@ -25,12 +25,19 @@ public class Windows
     
     public void draw(Graphics2D g2)
     {
-        Rectangle wind1= new Rectangle(10,300,50,50);
+        Rectangle wind1= new Rectangle(10,300,20,20);
+        Rectangle wind2= new Rectangle(40,300,20,20);
+      
         
         
         g2.draw(wind1);
         g2.setColor(Color.WHITE); 
         g2.fill(wind1);
+        
+        g2.draw(wind2);
+        g2.setColor(Color.WHITE); 
+        g2.fill(wind2);
+        
         
         
         

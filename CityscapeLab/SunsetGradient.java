@@ -11,7 +11,7 @@ public class SunsetGradient extends JPanel
     super.paint(g);
     Graphics2D g2d = (Graphics2D) g;
 
-    GradientPaint gp1 = new GradientPaint(100,0, Color.blue, 100, 600, Color.orange, true);
+    GradientPaint gp1 = new GradientPaint(100,0, new Color(176,224,230), 100, 600, new Color(255,140,0), true);
 
     g2d.setPaint(gp1);
     g2d.fillRect(0,0,2000,600);
